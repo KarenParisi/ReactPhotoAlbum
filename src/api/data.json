@@ -1,0 +1,120 @@
+[
+	{   
+        "label": "Album 1",
+        "id": 1,
+        "cvr": "http://publicdomainvectors.org/photos/gat4.png",
+        "imgs": [
+	         {
+	         	"id": "Img 1-1",
+	            "img": "http://cliparts.co/cliparts/qTB/XKa/qTBXKaMyc.png"
+	            
+	         }, 
+	         {
+	           "id": "Img 1-2",
+	            "img": "http://publicdomainvectors.org/photos/gat4.png"
+	        },
+	        {
+	           "id": "Img 1-3",
+	            "img": "http://cliparts.co/cliparts/dc9/pzR/dc9pzRodi.jpg"
+	        }
+        ]           
+    },
+    {
+        "label": "Album 2",
+        "id": 2,
+        "cvr": "http://images.all-free-download.com/images/graphiclarge/cat_silhouette_clip_art_6245.jpg",
+        "imgs": [
+	        {   
+	        	"id": "Img 2-1",
+	            "img": "http://images.all-free-download.com/images/graphiclarge/cat_silhouette_clip_art_6245.jpg"
+	        },
+	        {
+	        	"id":"Img 2-2",
+	            "img": "http://silhouettesfree.com/animals/domestic-animals/cat-silhouette-image-9.png"
+	        },
+	        {
+	           "id": "Img 2-3",
+	            "img": "https://www.colourbox.com/preview/11905692-cat-silhouette-vector.jpg"
+	        }
+        ]
+    },
+    {
+        "label": "Album 3",
+        "id": 3,
+        "cvr": "http://www.silhouettesclipart.com/blog/wp-content/uploads/2014/08/cat-silhouette-vector-01.jpg",
+        "imgs": [
+	        {   
+	        	"id": "Img 3-1",
+	            "img": "http://www.silhouettesclipart.com/blog/wp-content/uploads/2014/08/cat-silhouette-vector-01.jpg"
+	        },
+	        {
+	        	"id":"Img 3-2",
+	            "img": "http://i.istockimg.com/file_thumbview_approve/48611106/6/stock-illustration-48611106-cat-silhouette.jpg"
+	        },
+	        {
+	           "id": "Img 3-3",
+	            "img": "http://www.clipartkid.com/images/11/cat-clip-art-cat-sketches-cat-drawings-graphics-BUhQfd-clipart.png"
+	        }
+        ]
+    },	
+    {
+        "label": "Album 4",
+        "id": 4,
+        "cvr": "https://s-media-cache-ak0.pinimg.com/236x/54/92/00/549200a74afebc2b833aa985f53635c7.jpg",
+        "imgs": [
+	        {   
+	        	"id": "Img 4-1",
+	            "img": "http://www.bestfriendsstudios.com/images/Product/medium/1454.jpg"
+	        },
+	        {
+	        	"id":"Img 4-2",
+	            "img": "https://s-media-cache-ak0.pinimg.com/236x/54/92/00/549200a74afebc2b833aa985f53635c7.jpg"
+	        },
+	        {
+	           "id": "Img 4-3",
+	            "img":"https://openclipart.org/image/2400px/svg_to_png/241490/Cat-Silhouette.png"
+	        }
+        ]
+    },
+    {
+        "label": "Album 5",
+        "id": 5,
+        "cvr": "https://s-media-cache-ak0.pinimg.com/236x/f2/b8/63/f2b863a88f008ca4ce063b629f939a25.jpg",
+        "imgs": [
+	        {   
+	        	"id": "Img 5-1",
+	            "img": "https://s-media-cache-ak0.pinimg.com/236x/f2/b8/63/f2b863a88f008ca4ce063b629f939a25.jpg"
+	        },
+	        {
+	        	"id":"Img 5-2",
+	            "img": "https://s-media-cache-ak0.pinimg.com/564x/12/6d/d5/126dd58bc404966894be7f207810f5f3.jpg"
+	        },
+	        {
+	           "id": "Img 5-3",
+	            "img": "http://www.clipartkid.com/images/83/black-cat-silhouette-clip-art-cliparts-co-TMIiPO-clipart.jpg"
+	        }
+        ]
+    },
+    {
+        "label": "Album 6",
+        "id": 6,
+        "cvr": "http://vignette2.wikia.nocookie.net/streamclan-roleplaying/images/7/7c/Dog-and-cat-silhouette-KijXz8yiq.jpeg/revision/latest?cb=20141221171343",
+        "imgs": [
+	        {   
+	        	"id": "Img 6-1",
+	            "img": "http://www.clipartkid.com/images/11/cat-clip-art-cat-sketches-cat-drawings-graphics-BUhQfd-clipart.png"
+	        },
+	        {
+	        	"id":"Img 6-2",
+	            "img": "http://vignette2.wikia.nocookie.net/streamclan-roleplaying/images/7/7c/Dog-and-cat-silhouette-KijXz8yiq.jpeg/revision/latest?cb=20141221171343"
+	        },
+	        {
+	           "id": "Img 6-3",
+	            "img": "http://www.bestfriendsstudios.com/images/Product/icon/1457.jpg"
+	        }
+        ]
+    }			
+]	
+
+
+
