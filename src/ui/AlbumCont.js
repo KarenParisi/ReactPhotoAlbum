@@ -5,7 +5,7 @@ import {getImages} from "api/data.js";
 import { render } from 'react-dom';
 import { Router, Route, browserHistory, hashHistory } from 'react-router';
 import { Link } from "react-router";
-import MenuCont from "ui/MenuCont";
+import Menu from "ui/Menu";
 
 
 export default React.createClass({
@@ -25,7 +25,8 @@ export default React.createClass({
 	render: function () {
 		// console.log('data',this.state.data)
 		return (
-			<div> <MenuCont />
+			<div> 
+			<Menu />
 				<div className="flexcontainer">
 					<button onClick={this.handleBack}> {"<"} Back </button>
 					<Album album={this.state.album} />	

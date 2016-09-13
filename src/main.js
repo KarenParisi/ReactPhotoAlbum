@@ -16,11 +16,11 @@ import AlbumsCont from 'ui/AlbumsCont';
 import AlbumCont from "ui/AlbumCont";
 import Image from "ui/Image";
 import ImageCont from "ui/ImageCont";
-import Menu from "ui/Menu";
-import MenuCont from "ui/MenuCont";
-import MenuList from "ui/MenuList";
-import Images from "ui/images";
 
+
+
+import Images from "ui/images";
+// import Label from "ui/Label";
 
 var style = require("layout/styles.scss")
 
@@ -30,7 +30,10 @@ const Site = (
     <Router history={browserHistory}>
 	    <Route component={Layout}>
 			    <Route path="/" component={AlbumsCont} />
-			    <Route path="/MenuCont/:albumId"  component={MenuCont} />
+			  
+			 	
+			    
+
 			    <Route path="/AlbumCont/:albumId" component={AlbumCont} />
 			    <Route path="/ImageCont/:imageId" component={ImageCont} />
 		</Route>
@@ -39,6 +42,8 @@ const Site = (
 );
 
 render(Site, document.getElementById('app'));
+  //<Route name="albumDetail" path="/AlbumCont/:albumId" handler={require('ui/Menu.js')} />
+ // <Route name="albumDetail" path="/AlbumCont/:empoyeeId" handler={require('./components/Menu.js')} />
 
 
  // <Route path="/ImagePg/:imageId" component={ImagePg} />

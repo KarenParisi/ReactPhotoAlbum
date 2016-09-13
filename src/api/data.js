@@ -11,15 +11,6 @@ export function getCovers() {
 		}
 	});
 }
-export function getMenu() {
-	return data.map(function(list){
-		return {
-			id: list.id,
-			label: list.label
-			
-		}
-	});
-}
 
 
 export function getImages(id) {
@@ -33,64 +24,35 @@ export function getImages(id) {
 	}
 }	
 
-//data//
-export function getImageById(id) { //for contacts singleview
-	var images = data.filter(function(obj){
+
+export function getImageById(id) { 
+	var image = data.filter(function(obj){
 		return Number(obj.id) === Number(id);
 	})	
 	return {
-		id: images[0].id,
-		image:images[0].imgs
+		imageid: image[0].imgs[0].id,
+		imgs:image[0].imgs[0].img
 		
 	}
 }
 
-
-
-
-
-
-
-
-////////////////////////////////////////////////////////
-
-// SAVE
-// import data from "api/data.json";
-
-
-// export function getCovers() {
-// 	return data.map(function(covers){
-// 		return {
-// 			id: covers.id,
-// 			label: covers.label,
-// 			cvr: covers.cvr
-// 		}
-// 	});
-// }
-// export function getMenu() {
-// 	return data.map(function(list){
-// 		return {
-// 			id: list.id,
-// 			label: list.label
-			
-// 		}
-// 	});
-// }
-
-
-// export function getImages(id) {
-// 	var album = data.filter(function(obj){
-// 		return obj.id == id;
-// 	})
+///works///
+// export function getImageById(id) { 
+// 	var image = data.filter(function(obj){
+// 		return Number(obj.id) === Number(id);
+// 	})	
 // 	return {
-// 		id: album[0].id,
-// 		label:album[0].label,
-// 		images:album[0].imgs
+// 		imageid: image[0].imgs[0].id,
+// 		imgs:image[0].imgs[0].img
+		
 // 	}
-// }	
+// }
 
-// //data//
-// export function getImageById(id) { //for contacts singleview
+/////////////////////
+
+
+///
+// export function getImageById(id) { 
 // 	var images = data.filter(function(obj){
 // 		return Number(obj.id) === Number(id);
 // 	})	
@@ -100,3 +62,9 @@ export function getImageById(id) { //for contacts singleview
 		
 // 	}
 // }
+
+
+
+
+
+

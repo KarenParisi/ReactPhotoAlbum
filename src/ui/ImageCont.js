@@ -1,5 +1,5 @@
 import React from 'react';
-import Images from 'ui/Images';
+import Image from 'ui/Image';
 import {getImageById} from 'api/data';
 import { render } from 'react-dom';
 import { Router, Route, browserHistory, hashHistory } from 'react-router';
@@ -12,18 +12,18 @@ handleBack: function () {
   	},
 	getInitialState: function () {
 		return {
-			images: []
+			image:''
 		}
 	},
 	componentWillMount: function() {
 		this.setState({
-			images: getImageById(this.props.params.imageId)
+			image: getImageById(this.props.params.imageId)
 		})
 	},
 	render: function () {
 		return (
 			<div>
-				<Images images={this.state.images} />
+				<Image image={this.state.image} />
 			</div>
 		)
 	}

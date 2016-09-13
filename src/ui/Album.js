@@ -12,6 +12,7 @@ export default React.createClass({
 					{this.props.album.images.map((imgs, i) => {
 					return <AlbumImgs key={i} id={this.props.album.id} label={this.props.album.label} imageid={imgs.id} src={imgs.img} />
 				})}
+					{this.props.children}
 				</ul>
 			</div>
 		)
